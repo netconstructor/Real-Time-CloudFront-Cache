@@ -6,8 +6,11 @@ This script was created to create a "Live, Auto Updating Real-Time Cache for Ama
 In short, this script preforms the following functions:
 
    1) automatically scans all your Amazon CloudFront directories
+
    2) automatically builds a complete file index of all found files in all directories.
+
    3) automatically recognizes which files were modified since it last checked
+
    4) automatically clears the cache of all traces of these found files on the Amazon CloudFront servers.
 
 
